@@ -1,10 +1,18 @@
+import Header from './componentes/Header';
+import Nav from './componentes/Nav';
+import Main from './componentes/Main';
+import Footer from './componentes/Footer';
+
 function App() {
   return (
-    <div>
+    <>
       <h1>Olá, mundo!</h1>
-    </div>
+      <Header/>
+      <Nav/>
+      <Main/>
+      <Footer/>
+    </>
   )
-   
-}
+};
 
 export default App;
